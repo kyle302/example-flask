@@ -8,3 +8,4 @@ Werkzeug==2.2.2
 python-telegram-bot==21.1.1
 tabulate==0.8.9
 requests
+pytest
