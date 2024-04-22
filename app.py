@@ -1,10 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
+import server
 
-@app.route('/')
-def hello_world():
-    return 'Hello from Koyeb'
-
-
-if __name__ == "__main__":
-    app.run()
+if __name__ == '__main__':
+    server.start_server()
